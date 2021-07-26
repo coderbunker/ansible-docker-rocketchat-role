@@ -1,0 +1,12 @@
+---
+# defaults file for ansible-docker-rocketchat
+
+utilisateur_unix: "fusee_bavarde"
+depot_git_distant: "https://github.com/frdmn/docker-rocketchat.git"
+depot_git_local: "docker-rocketchat"
+
+# Variables du fichier .env du projet docker-compose de Rocket Chat
+hote: "rocketchat.monsite.org"
+fuseau_horaire: "/usr/share/zoneinfo/Canada/Eastern"
+robot_mdp: "un_vrai_mot_de_passe"
+
